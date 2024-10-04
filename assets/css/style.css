@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    background: linear-gradient(rgb(240, 236, 236),rgb(121, 121, 216),rgb(46, 46, 105)85%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: white;
+
+}
+a {
+    color: white;
+}
+a {
+    text-decoration:none ;
+}
+#FOTO-PERFIL {
+    border-radius: 60% 60% 45% 45%;
+
+    box-shadow: rgb(46, 46, 105) 10px 10px 15px;
+
+}
+#inf {
+    background-color:rgb(46, 46, 105) ;
+    border-radius: 20px;
+    box-shadow:white 5px 5px 25px ;
+}
+#edu {
+    background-color:rgb(46, 46, 105) ;
+    border-radius: 20px;
+    box-shadow:white 5px 5px 25px ;
+}
+#nombre {
+    text-shadow:#f3f3f5 5px 5px 10px, 0 0 15px black;
+}
+#detalles {
+    background-color:rgb(46, 46, 105) ;
+    border-radius: 20px;
+    box-shadow:white 5px 5px 25px ;
+}
