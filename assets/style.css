@@ -3,46 +3,40 @@ body{
       margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: auto;
-
-    grid-template-rows: auto;
-    color: white;
-  }
-  main{
     display: flex;
     flex-direction: column;
-
     justify-content: center;
-    align-content: center;
+
+    color: white;
   }
-  .main{
+ 
+  .header{
+
 width: 100%;
 
-    height: 25%;
+    height: 15%;
     text-align: center;
     margin-top: 0;
     align-items: center;
-    border-radius: 15px;
-    background: linear-gradient(#851717,#6b0c6b,#383434);
-
-
+    border-radius: 25px;
+    background: linear-gradient(-45deg,#eff318,#afc43b,#d1db47);
   
 
   }
   .foto {
-    width: 100%;
-    height: auto;
+    width:500px;
+    min-height: 80vh;
     margin: 0;
-    position: relative;
-    left: 505;
+    position:relative;
+    left: 33%;
   } 
-  @media (max-width:576px )
-  {
-.foto{
-left: 70px;
-}
+  .foto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
-
-
-
+  @media (max-width:500px){
+    .foto {
+      left: 0;
+    }
+  }
